@@ -1,5 +1,5 @@
 def vowelsCount():
-    word = input("Write a word: ").lower()
+    word = input("Write a word: ").lower() #.lower transform all the uppercases on lowercases
     vowels = "aeiou"
     count = 0
     for vowel in word:
