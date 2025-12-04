@@ -2,10 +2,6 @@
 def wordsletters():
 
     word = input("Insert a word: ")
-    wordBreakDown = []
-
-    for i in range(len(word)):
-        wordBreakDown.append(i)
-    return wordBreakDown[0], wordBreakDown[-1]
+    return word[0], word[-1]
 
 print(wordsletters())

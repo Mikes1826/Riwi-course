@@ -3,6 +3,6 @@ def wordsCounting():
 
     words = phrase.split()
     wordsAmount = len(words)
-    return f"The phrase '{phrase}' has {wordsAmount} words"
+    return f"The phrase '{phrase}' has {wordsAmount} words and {len(phrase)} characters"
 
 print(wordsCounting())
