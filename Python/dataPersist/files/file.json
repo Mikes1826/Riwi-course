@@ -1,0 +1,18 @@
+{
+  "Students": [
+    {
+      "Name": "Mia Mejia",
+      "ID": "123456",
+      "Subjects": []
+    },
+    {
+      "Name": "Michael Jackson",
+      "ID": "654321",
+      "Subjects": [
+        "Hehe",
+        "moonwalk",
+        "smooth Criminal"
+      ]
+    }
+  ]
+}
