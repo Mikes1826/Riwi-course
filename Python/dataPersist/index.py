@@ -36,7 +36,7 @@ def readData():
 
 
 def writeData():
-    studentName = input('Insert Student Naame: ')
+    studentName = input('Insert Student Name: ')
     studentID = input('Insert Student ID: ')
     studentsubject = []
     subject = True
@@ -91,16 +91,16 @@ def updateData():
                 return
         print('Student not found')
 
-    def deleteData():
-        with open(route, 'r') as studentFile:
-            data = json.load(studentFile)
-            studentId = input('Insert student ID to delete info: ')
-            for i, student in enumerate(data['Students']):
-                if student['ID'] == studentId:
-                    print('Student found')
-                    del data['Students'][i]
-                    with open(route, 'w') as studentFile:
-                        json.dump(data, studentFile, indent=2)
-                    print('Student info deleted')
-                    return
-            print('Student not found')
+def deleteData():
+    with open(route, 'r') as studentFile:
+        data = json.load(studentFile)
+        studentId = input('Insert student ID to delete info: ')
+        for i, student in enumerate(data['Students']):
+            if student['ID'] == studentId:
+                print('Student found')
+                del data['Students'][i]
+                with open(route, 'w') as studentFile:
+                    json.dump(data, studentFile, indent=2)
+                print('Student info deleted')
+                return
+        print('Student not found')
