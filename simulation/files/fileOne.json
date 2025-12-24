@@ -1,0 +1,28 @@
+{
+  "Devices": [
+    {
+      "deviceID": 0,
+      "deviceName": "Laptop Dell XPS",
+      "category": "Laptop",
+      "currentStatus": "AVAILABLE",
+      "registerDay": "12/05/2025",
+      "description": "This device its amazing, its fantastic it makes me fell Supercalifragilisticexpialidocious"
+    },
+    {
+      "deviceID": 1,
+      "deviceName": "Laptop lenovo",
+      "category": "Laptop",
+      "currentStatus": "AVAILABLE",
+      "registerDay": "12/05/2025",
+      "description": "This device its amazing, its fantastic it makes me fell Supercalifragilisticexpialidocious"
+    },
+    {
+      "deviceID": 3,
+      "deviceName": "LENOVO",
+      "category": "LAPTOP",
+      "currentStatus": "AVAILABLE",
+      "registerDay": "12/23/34",
+      "description": "good device"
+    }
+  ]
+}
